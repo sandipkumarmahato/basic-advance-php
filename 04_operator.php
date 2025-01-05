@@ -23,4 +23,38 @@
     echo "$x % $y = $modulus";
     echo "<br>";
     echo "$x ** $y = $exponentiation";
+    echo "<br>";
+    echo "<br>";
+
+    // Assignment Operators
+
+    $a = 20;  
+    $a += 100;
+    echo $a;
+
+    echo "<br>";
+    
+    $b = 120;  
+    $b -= 100;
+    echo $b;
+    
+    echo "<br>";
+    
+    $c = 12;  
+    $c *= 10;
+    echo $c;
+    
+    echo "<br>";
+    
+    $d = 120;  
+    $d /= 13;
+    echo $d;
+    
+    echo "<br>";
+
+    $e = 120;  
+    $e %= 13;
+    echo $e;
+
+    
 ?>
