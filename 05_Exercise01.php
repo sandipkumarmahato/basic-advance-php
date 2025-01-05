@@ -32,6 +32,4 @@
     else{
         echo "$a is Odd No";
     }
-
-
 ?>
