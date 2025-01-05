@@ -136,10 +136,93 @@
 
     echo ($x <=> $y); // returns 0 because values are equal
     echo "<br>";
-
+    
     $x = 15;  
     $y = 10;
-
+    
     echo ($x <=> $y); // returns +1 because $x is greater than $y
+    echo "<br>";
+    echo "<br>";
 
+    // Increment / Decrement Operators
+
+    $x = 10;  
+    echo ++$x;  // 11
+
+    echo "<br>";
+    
+    $x = 10;  
+    echo $x++;  // 10
+    
+    echo "<br>";
+    
+    $x = 10;  
+    echo --$x;   // 9   
+    
+    echo "<br>";
+    
+    $x = 10;  
+    echo $x--;  // 10
+    
+    echo "<br>";
+    echo "<br>";
+
+    // Logical Operators
+
+    $x = 100;  
+    $y = 50;
+
+    if ($x == 100 && $y == 50) {
+        echo "Hello world!";
+    }
+    
+    echo "<br>";
+
+    $x = 100;  
+    $y = 50;
+
+    if ($x == 100 || $y == 80) {
+        echo "Hello world!";
+    }
+    
+    echo "<br>";
+
+    $x = 100;  
+    $y = 50;
+
+    if ($x == 100 xor $y == 80) {
+        echo "Hello world!";
+    }
+    
+    echo "<br>";
+
+    $x = 100;  
+
+    if (!($x == 90)) {
+        echo "Hello world!";
+    }
+    
+    echo "<br>";
+
+    if ($x == 100 and $y == 50) {
+        echo "Hello world!";
+    }
+    
+    echo "<br>";
+    
+    $x = 100;  
+    $y = 50;
+    
+    if ($x == 100 or $y == 80) {
+        echo "Hello world!";
+    }
+    
+    echo "<br>";
+    echo "<br>";
+    
+
+    // Ternary Operator
+
+    $age = 20;
+    print ($age >= 18) ? "Adult" : "Not Adult";
     ?>
